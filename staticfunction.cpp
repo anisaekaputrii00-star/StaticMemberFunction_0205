@@ -52,7 +52,9 @@ int main() {
     mhs3.printAll();
     mhs4.printAll();
 
-    
+    cout << "Akses dari luar object = " << mahasiswa::getNim() << endl;
+    system("pause");
+    return 0;
 
 }
 
