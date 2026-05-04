@@ -25,5 +25,17 @@ class mahasiswa{
             setID();
         };
 
+};
+
+int mahasiswa::nim = 0;
+
+void mahasiswa::setID(){
+    id = ++nim;
+}
+
+void mahasiswa::printAll(){
+    cout << "ID : " << id << endl;
+    cout << "Nama : " << nama << endl;
+    cout << endl;
 }
 
