@@ -39,3 +39,15 @@ void mahasiswa::printAll(){
     cout << endl;
 }
 
+int main() {
+    mahasiswa mhs1("Sri Dadi");
+    mahasiswa mhs2("Budi Jatmiko");
+    
+    mahasiswa::setNim(9);
+    mahasiswa mhs3("Andi Janu");
+    mahasiswa mhs4("Joko Wohono");
+
+    
+
+}
+
